@@ -1,0 +1,28 @@
+<!-- <div class="container mt-5">
+    <div class="card text-center" style="color: green; padding: 20px;">
+        <h1>You are Admin</h1>
+    </div>
+</div> -->
+
+<div class="register-admin-form">
+    <h2>Register New Admin</h2>
+    <form (ngSubmit)="registerAdmin()">
+        <div>
+            <label for="username">Username:</label>
+            <input type="text" id="username" [(ngModel)]="newAdmin.userName" name="username" required />
+        </div>
+        <div>
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" [(ngModel)]="newAdmin.userFirstName" name="firstName" required />
+        </div>
+        <div>
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" [(ngModel)]="newAdmin.userLastName" name="lastName" required />
+        </div>
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password" [(ngModel)]="newAdmin.userPassword" name="password" required />
+        </div>
+        <button type="submit">Register Admin</button>
+    </form>
+</div>

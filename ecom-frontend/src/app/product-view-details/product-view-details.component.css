@@ -1,0 +1,108 @@
+/* Styling for the container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Product information styling */
+.product-information {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.product-information h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Description styling */
+.description {
+    margin-top: 15px;
+}
+
+/* Price styling */
+.price b {
+    font-size: 1.5rem;
+    color: #222;
+}
+
+.strikethrough {
+    text-decoration: line-through;
+    color: #ff4d4f;
+    font-size: 1.2rem;
+    margin-left: 10px;
+}
+
+/* Image container styling */
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 15px;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+/* Thumbnail images styling */
+.thumbnail-container {
+    margin-top: 10px;
+}
+
+.thumbnail-tile {
+    border: 1px solid lightgrey;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: transform 0.2s;
+}
+
+.thumbnail-tile:hover {
+    transform: scale(1.05);
+}
+
+.thumbnail-tile img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Button styling */
+.text-center button {
+    width: 200px;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.buy-now-btn {
+    background-color: #ff4d4f;
+    color: #fff;
+}
+
+.buy-now-btn:hover {
+    background-color: #e04344;
+}
+
+.add-to-cart-btn {
+    background-color: #f8f9fa;
+    color: gold;
+    border: 1px solid gold;
+}
+
+.add-to-cart-btn:hover {
+    background-color: #e6e6e6;
+    transform: translateY(-2px);
+}
